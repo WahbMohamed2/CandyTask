@@ -1,14 +1,13 @@
-# Location Data Cleaning Project
+# Candy Survey Data Cleaning
 
-This project provides a script to clean and standardize location data, handling inconsistencies such as misspellings, unwanted characters, and missing values. The cleaned data ensures uniformity, making it ready for further analysis.
+This project contains a Python script to clean and standardize survey data collected about candies. The script addresses inconsistencies and errors in the dataset, making it easier to analyze and visualize the responses.
 
 ## Features
 
-- Handles common misspellings and incorrect formats (e.g., "califormia" → "California").
-- Converts all entries to lowercase and removes unnecessary whitespace.
-- Replaces abbreviations with full names (e.g., "ny" → "New York").
-- Removes invalid or irrelevant data entries (e.g., "sub earth", "ur mom").
-- Standardizes "City, State" formats for better clarity.
+- Cleans and standardizes candy-related data entries.
+- Handles inconsistencies like typos, abbreviations, and unnecessary whitespace.
+- Groups low-frequency responses into an "Others" category for better analysis.
+- Removes irrelevant or invalid data entries.
 
 ## Usage
 
